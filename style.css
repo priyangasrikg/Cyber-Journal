@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7fde7e; /* light green background */
+    color: #000000; /* black text */
+}
+
+header {
+    background-color: #7fde7e; /* same green header */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #000000; /* black heading */
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #000000; /* black subtext */
+}
+
+section {
+    padding: 20px 40px;
+}
+
+section h2 {
+    color: #060707; /* dark heading */
+    border-bottom: 2px solid #1c4712; /* dark green underline */
+    padding-bottom: 5px;
+}
+
+ul.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.post-list li {
+    margin: 15px 0;
+}
+
+ul.post-list li a {
+    color: #060707; /* dark link */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul.post-list li a:hover {
+    text-decoration: underline;
+}
+
+.post {
+    background-color: #a8f0a0; /* slightly lighter green for card effect */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #1c4712; /* subtle dark border for contrast */
+}
+
+.post h3 {
+    color: #000000;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #060707;
+    background-color: #7fde7e; /* same as main green */
+    margin-top: 40px;
+}
